@@ -6,7 +6,10 @@
 # Docs
 # TODO: Documentation
 Doxygen/*
-Doxygen/output/*
+Doxygen/output/
+Doxygen/output/html/
+Doxygen/output/html/*
+Doxygen/output/html
 !Doxygen/Doxyfile
 
 # User-specific files
