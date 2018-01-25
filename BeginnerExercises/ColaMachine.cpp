@@ -23,13 +23,21 @@ int cola()
 	sodaCollection[4] = "Boba";
 	sodaCollection[5] = "Sake";
 
+	// Prompt user
+	cout << "Please chose a number from one of the following: " << endl;
+
 	// Iterate through all elements
+	cout << "Here are your options..." << endl;
 	map<int, string>::iterator it = sodaCollection.begin();
 	while (it != sodaCollection.end())
 	{
 		cout << it->first << " :: " << it->second << endl;
 		it++;
 	}
+
+
+
+	// Do not immediatly exit
 	system("pause");
 
 	// Return
